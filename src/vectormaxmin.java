@@ -1,0 +1,23 @@
+import java.util.Collections;
+import java.util.Vector;
+
+public class vectormaxmin {
+
+	public static void main(String[] args) {
+		Vector v=new Vector();
+		v.add(10);
+		v.add(20);
+		v.add(40);
+		v.add(60);
+		v.add(80);
+		v.add(70);
+		v.add(199);
+		Collections.sort(v);
+		System.out.println("The minimum is "+v.firstElement());
+		System.out.println("The maximum is "+v.lastElement());
+		
+		
+
+	}
+
+}
